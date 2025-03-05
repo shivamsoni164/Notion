@@ -44,37 +44,41 @@ body {
 
 
 .slide:first-child {
-  background: url("Sale 1.jpg") no-repeat
+  background: url("Credit 1.jpg") no-repeat
     center top/cover;
 }
 
 .slide:nth-child(2) {
-  background: url("Sale 2.jpg") no-repeat
+  background: url("Credit 2.jpg") no-repeat
     center top/cover;
 }
 
 .slide:nth-child(3) {
-  background: url("Sales 3.jpg") no-repeat
+  background: url("Credit 3.jpg") no-repeat
     center top/cover;
 }
 
   .slide:nth-child(4) {
-    background: url("Sales 4.jpg") no-repeat
+    background: url("Credit 4.jpg") no-repeat
       center top/cover;
 }
 
   
   .slide:nth-child(5) {
-    background: url("Sales 5.jpg") no-repeat
+    background: url("Credit 5.jpg") no-repeat
       center top/cover;
 }
 
 
   .slide:nth-child(6) {
-    background: url("Sales 6.jpg") no-repeat
+    background: url("Credit 6.jpg") no-repeat
       center top/cover;
 }
 
+  .slide:nth-child(7) {
+    background: url("Credit 7.jpg") no-repeat
+      center top/cover;
+}
   
 .buttons button#prev {
   position: absolute;
@@ -127,6 +131,7 @@ body {
   <!-- partial:index.partial.html -->
   <div class="slider">
     <div class="slide current"></div>
+    <div class="slide"></div>
     <div class="slide"></div>
     <div class="slide"></div>
     <div class="slide"></div>
